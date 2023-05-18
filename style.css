@@ -1,0 +1,50 @@
+
+body{
+display: grid;
+grid-template-areas: 
+"cabeca cabeca cabeca cabeca"
+"lado princi prnci prnci"
+"rodape rodape rodape";
+grid-template-columns: auto auto auto auto;
+grid-template-rows: auto auto auto auto;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+header{
+    background-color: black;
+    color: red;
+    text-align: center;
+}
+ .grad-h{
+grid-area:cabeca;
+background-color: black;
+
+ }
+ .grad-m{
+    grid-area:princi;
+    background-color: black;
+ }
+ .grad-a{
+    grid-area:lado;
+    background-color: black;
+ }
+ .grad-f{
+    grid-area:rodape;
+    background-color: black;
+ }
